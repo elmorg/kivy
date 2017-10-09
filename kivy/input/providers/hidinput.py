@@ -313,7 +313,8 @@ else:
         options = ('min_position_x', 'max_position_x',
                    'min_position_y', 'max_position_y',
                    'min_pressure', 'max_pressure',
-                   'invert_x', 'invert_y', 'rotation')
+                   'invert_x', 'invert_y', 'rotation'
+                   'min_abs_x', 'max_abs_x', 'min_abs_y', 'max_abs_y')
 
         def __init__(self, device, args):
             super(HIDInputMotionEventProvider, self).__init__(device, args)
